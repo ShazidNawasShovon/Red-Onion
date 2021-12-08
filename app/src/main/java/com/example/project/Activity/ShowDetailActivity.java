@@ -25,6 +25,7 @@ public class ShowDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_detail);
 
+
         managementCart = new ManagementCart(this);
 
         initView();
