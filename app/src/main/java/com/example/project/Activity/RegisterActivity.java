@@ -54,11 +54,11 @@ public class RegisterActivity extends AppCompatActivity {
                             }
                         }
                         else{
-                            Toast.makeText(RegisterActivity.this,"User already exists plese login",Toast.LENGTH_SHORT);
+                            Toast.makeText(RegisterActivity.this,"User already exists plese login",Toast.LENGTH_SHORT).show();
                         }
                     }
                     else{
-                        Toast.makeText(RegisterActivity.this,"password didnt match",Toast.LENGTH_SHORT);
+                        Toast.makeText(RegisterActivity.this,"password didnt match",Toast.LENGTH_SHORT).show();
                     }
                 }
 
