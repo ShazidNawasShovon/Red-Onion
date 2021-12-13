@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">project</string>
+    <string name="client_details">Client Details:</string>
 </resources>

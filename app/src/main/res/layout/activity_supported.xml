@@ -3,11 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:focusable="true"
-    android:focusableInTouchMode="true"
     android:layout_height="match_parent"
-    tools:context=".Activity.MainActivity">
-
+    tools:context=".Activity.SupportedActivity">
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
@@ -28,7 +25,7 @@
                 android:layout_height="wrap_content">
 
                 <androidx.recyclerview.widget.RecyclerView
-                    android:id="@+id/recyclerView2"
+                    android:id="@+id/clientList"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:clipToPadding="false"
@@ -45,7 +42,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="40dp"
                     android:layout_marginTop="16dp"
-                    android:text="Popular"
+                    android:text="TOP CLIENTS"
                     android:textColor="#000000"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -58,7 +55,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="32dp"
-                    android:text="Hi Shazid"
+                    android:text="CPL Shazid"
                     android:textColor="#ff3d00"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -99,7 +96,7 @@
                     android:drawableStart="@drawable/search"
                     android:drawablePadding="10dp"
                     android:ems="10"
-                    android:hint="Find Your Food"
+                    android:hint="Find Top Client"
                     android:inputType="textPersonName"
                     android:paddingStart="20dp"
                     android:textSize="14sp"
@@ -209,7 +206,6 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
-
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
